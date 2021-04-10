@@ -1,0 +1,115 @@
+body {
+    background: url('/assets/images/bg_pcb.jpg') no-repeat;
+    background-size: cover;
+    padding-bottom: 200px; }
+
+section, footer {
+    background: #eee;
+    background: -webkit-linear-gradient(#eee, #ccc);
+    background:    -moz-linear-gradient(#eee, #ccc);
+    background:     -ms-linear-gradient(#eee, #ccc);
+    background:      -o-linear-gradient(#eee, #ccc);
+    background:         linear-gradient(#eee, #ccc);
+
+    -o-border-radius:   3px 3px 5px rgba(0, 0, 0, 0.3);
+    -ms-border-radius:  3px 3px 5px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow:    3px 3px 5px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    box-shadow:         3px 3px 5px rgba(0, 0, 0, 0.3); }
+
+section {
+    -o-border-radius:      10px;
+    -ms-border-radius:     10px;
+    -moz-border-radius:    10px;
+    -webkit-border-radius: 10px;
+    border-radius:         10px;
+
+    margin: 50px;
+    padding: 30px;
+    width: 430px;
+    text-align: justify; }
+    section > p:first-of-type {
+        padding-top: 5px; }
+
+h1 {
+    color: #222;
+    font-family: 'Alfa Slab One', 'Helvetica', 'Arial', sans-serif;
+    font-size: 48pt;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.3);
+    text-decoration: none; }
+    h1 a:hover {
+        text-decoration: none; }
+
+h2 {
+    padding-top: 0.8em; }
+
+h2 a {
+    color: #222;
+    font-family: 'Lato', 'Verdana', sans-serif;
+    font-size: 16pt;
+    text-shadow: 0 1px 0 #fff; }
+
+p, a {
+    color: #777;
+    padding-top: 0.8em;
+    line-height: 1.4em;
+    font-family: 'Lato', 'Verdana', sans-serif;
+    font-size: 16pt;
+    text-shadow: 0 1px 0 #fff; }
+
+a {
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+
+    text-decoration: underline; }
+    a:hover {
+        color: #ff9c00; }
+
+.links {
+    padding-top: 4em; }
+    .links p {
+        padding: 0.4em 0 0 1em;
+        font-size: 13pt; }
+    .links a:before {
+        content: '\00bb\20'; }
+
+.custom-links {
+    margin-top: 20px;
+    text-align: center;
+    color: #999999; }
+    .custom-links a {
+        text-decoration: none;
+        color: #999999; }
+    .custom-links a:hover {
+        color: #ff9c00; }
+
+footer {
+    -o-border-radius: 10px 10px 0 0;
+    -ms-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 25%;
+    right: 25%;
+    padding: 5px;
+    border-bottom: none; }
+    footer p {
+        padding: 0.2em;
+        line-height: 1em;
+        font-size: 11pt;
+        font-style: oblique;
+        text-align: center; }
+    footer a {
+        font-size: 11pt; }
+
+.heart {
+    color: #a22;
+    font-size: 8pt;
+    font-style: normal; }

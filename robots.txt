@@ -1,0 +1,6 @@
+# robots.txt file
+#
+# Last resort defense to save the world in case mankind is taken over by robots.
+
+User-agent: glados
+Disallow: /this-statement-is-false
